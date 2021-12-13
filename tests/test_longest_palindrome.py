@@ -2,8 +2,10 @@ from unittest import TestCase
 
 from src.main import SolutionLongestPalindrome
 
+from timed_test_case import TimedTestCase
 
-class TestLongestPalindrome(TestCase):
+
+class TestLongestPalindrome(TimedTestCase):
 
     def test_longest_palindrome_empty(self):
         text = ""

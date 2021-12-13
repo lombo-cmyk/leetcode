@@ -2,8 +2,10 @@ from unittest import TestCase
 
 from src.main import SolutionReverseInteger
 
+from timed_test_case import TimedTestCase
 
-class TestReverseInteger(TestCase):
+
+class TestReverseInteger(TimedTestCase):
 
     def test_reverse_zero(self):
         number_to_reverse = 0
